@@ -1,0 +1,81 @@
+body{
+  background:url(images/background6.jpeg)
+  no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+}
+.head_name{
+  font-family: cursive;
+  padding-left: 1rem;
+  letter-spacing: .2rem;
+}
+nav{
+  margin-top: -3.7rem;
+  float: right;
+}
+li{
+  display: inline;
+  padding-right: 3rem;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+li a:hover{
+  color: orange;
+  font-weight: bolder;
+}
+.container{
+  text-align: center;
+  color: white;
+  padding-top: 5rem;
+}
+overlay{
+   background: #225470;
+
+}
+.overlay p{
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+}
+.textt{
+  font-family: cursive;
+}
+.overlay span{
+  margin-top: 1rem;
+  font-size:2.5rem;
+  color: orange;
+  font-weight: bolder;
+}
+.btn1{
+  background-color: orange;
+  padding: .5rem;
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 1.5rem;
+  font-weight: bold;
+  font-family: cursive;
+}
+.btn2{
+  background-color: orange;
+  color: blue;
+  margin-left: 1rem;
+  padding: .5rem;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 1.5rem;
+  font-weight: bold;
+  font-family: cursive;
+}
+.btn1:hover{
+  color: white;
+  background-color: blue;
+}
+.btn2:hover{
+  color:orange;
+  background-color: blue;
+}
+.mp:hover{
+  color: orange;
+  letter-spacing: 4px;
+}
